@@ -107,10 +107,10 @@ def mainif():
                 driver.implicitly_wait(5) #this function is used to stop the execution of programme for the specified time in seconds , when an element is not still loaded , if it is already loaded then this will not wait , this function should be used only once in a programme block as this will be applicable to all the elements
                 driver.get("http://kmitonline.com/login/index.php")
                 ele_user=driver.find_element_by_xpath("//*[@id='username']")  # or ele=driver.find_element_by_name("username")
-                ele_user.send_keys("20BD1A055T") #  sends the text inside and fills it
+                ele_user.send_keys("*****") #  sends the text inside and fills it
 
                 ele_pass=driver.find_element_by_name("password")
-                ele_pass.send_keys("Kmit123$")
+                ele_pass.send_keys("*****")
 
                 ele_login=driver.find_element_by_xpath("//*[@id='loginbtn']").click()
                 driver.implicitly_wait(50000)
@@ -193,10 +193,10 @@ def mainif():
                 driver.implicitly_wait(5) #this function is used to stop the execution of programme for the specified time in seconds , when an element is not still loaded , if it is already loaded then this will not wait , this function should be used only once in a programme block as this will be applicable to all the elements
                 driver.get("http://ngitonline.com/login/index.php")
                 ele_user=driver.find_element_by_xpath("//*[@id='username']")  # or ele=driver.find_element_by_name("username")
-                ele_user.send_keys("20BD1A055T") #  sends the text inside and fills it
+                ele_user.send_keys("******") #  sends the text inside and fills it
 
                 ele_pass=driver.find_element_by_name("password")
-                ele_pass.send_keys("8309882962@")
+                ele_pass.send_keys("********")
 
                 ele_login=driver.find_element_by_xpath("//*[@id='loginbtn']").click()
                 ele_studyMaterialPage=driver.find_element_by_xpath("//*[@id='region-main']/div/div/ul/li[6]/a").click()
@@ -221,10 +221,10 @@ def mainif():
                 driver.implicitly_wait(5) #this function is used to stop the execution of programme for the specified time in seconds , when an element is not still loaded , if it is already loaded then this will not wait , this function should be used only once in a programme block as this will be applicable to all the elements
                 driver.get("http://ngitonline.com/login/index.php")
                 ele_user=driver.find_element_by_xpath("//*[@id='username']")  # or ele=driver.find_element_by_name("username")
-                ele_user.send_keys("20BD1A055T") #  sends the text inside and fills it
+                ele_user.send_keys("******") #  sends the text inside and fills it
 
                 ele_pass=driver.find_element_by_name("password")
-                ele_pass.send_keys("8309882962@")
+                ele_pass.send_keys("******")
 
                 ele_login=driver.find_element_by_xpath("//*[@id='loginbtn']").click()
                 Options().add_experimental_option("detach",True)
@@ -240,10 +240,10 @@ def mainif():
                 driver.implicitly_wait(5) #this function is used to stop the execution of programme for the specified time in seconds , when an element is not still loaded , if it is already loaded then this will not wait , this function should be used only once in a programme block as this will be applicable to all the elements
                 driver.get("http://kmitonline.com/login/index.php")
                 ele_user=driver.find_element_by_xpath("//*[@id='username']")  # or ele=driver.find_element_by_name("username")
-                ele_user.send_keys("20BD1A055T") #  sends the text inside and fills it
+                ele_user.send_keys("******") #  sends the text inside and fills it
 
                 ele_pass=driver.find_element_by_name("password")
-                ele_pass.send_keys("Kmit123$")
+                ele_pass.send_keys("******")
 
                 ele_login=driver.find_element_by_xpath("//*[@id='loginbtn']").click()
                 Options().add_experimental_option("detach",True)
